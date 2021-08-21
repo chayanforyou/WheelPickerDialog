@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Chayan/Documents/AndroidStudioProjects/WheelPickerDialog/app/src/main/res/drawable/dialog_button_selector.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Chayan/Documents/AndroidStudioProjects/WheelPickerDialog/app/src/main/res/layout/activity_main.xml" value="0.3421875" />
+        <entry key="..\:/Users/Chayan/Documents/AndroidStudioProjects/WheelPickerDialog/app/src/main/res/layout/content_main.xml" value="0.3421875" />
+        <entry key="..\:/Users/Chayan/Documents/AndroidStudioProjects/WheelPickerDialog/app/src/main/res/layout/dialog_content_normal.xml" value="0.3421875" />
+        <entry key="..\:/Users/Chayan/Documents/AndroidStudioProjects/WheelPickerDialog/wheelpicker/src/main/res/drawable/layout_bg.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Chayan/Documents/AndroidStudioProjects/WheelPickerDialog/wheelpicker/src/main/res/drawable/wheel_bg.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Chayan/Documents/AndroidStudioProjects/WheelPickerDialog/wheelpicker/src/main/res/drawable/wheel_val.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Chayan/Documents/AndroidStudioProjects/WheelPickerDialog/wheelpicker/src/main/res/layout/default_text_item_layout.xml" value="0.3421875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

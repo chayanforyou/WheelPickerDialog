@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/geometria_bold"
+        android:text="Profile"
+        android:textColor="@color/textPrimary"
+        android:textSize="30sp" />
+
+    <RelativeLayout
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/geometria_medium"
+            android:text="Gender"
+            android:textColor="@color/textPrimary"
+            android:textSize="16sp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/gender_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:fontFamily="@font/geometria_medium"
+            android:gravity="center_vertical"
+            android:text="Male"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dividerColor" />
+
+    <RelativeLayout
+        android:id="@+id/birthday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/geometria_medium"
+            android:text="Birthday"
+            android:textColor="@color/textPrimary"
+            android:textSize="16sp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/birthday_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:fontFamily="@font/geometria_medium"
+            android:gravity="center_vertical"
+            android:text="01 January, 2001"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dividerColor" />
+
+    <RelativeLayout
+        android:id="@+id/height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/geometria_medium"
+            android:text="Height"
+            android:textColor="@color/textPrimary"
+            android:textSize="16sp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/height_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:fontFamily="@font/geometria_medium"
+            android:gravity="center_vertical"
+            android:text="5ft6in"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dividerColor" />
+
+    <RelativeLayout
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/geometria_medium"
+            android:text="Weight"
+            android:textColor="@color/textPrimary"
+            android:textSize="16sp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/weight_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:fontFamily="@font/geometria_medium"
+            android:gravity="center_vertical"
+            android:text="65kg"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/dividerColor" />
+
+</LinearLayout>
